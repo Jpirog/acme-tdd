@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "DATABASE_URL=postgres://localhost/acme_tdd_test mocha spec.js",
+    "test": "DATABASE_URL=postgres://postgres:FSA123@localhost/acme_tdd_test mocha spec.js",
     "test:dev": "npm run test -- --watch",
     "build": "webpack",
     "build:dev": "npm run build -- --watch --mode=development",
